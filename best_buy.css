@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:Arial, Helvetica, sans-serif;
+
+
+}
+#nav1{
+    background-color: #143196;
+    height:2.5vh;
+    font-size: 0.5rem;
+    /* display: flex;
+    align-items: center; */
+    padding: 1%;
+}
+#nav2{
+    background-color: #1D46BE;
+ 
+    
+}
+.top{
+    text-decoration: none;
+    color: #B8C5DF;
+
+    margin-left: 1%;
+    font-weight: lighter;
+    font-size: 0.9rem;
+    
+}
+#nav3{
+    display: flex;
+    background-color:#1D46BE;
+    justify-content: space-between;
+    padding: 1% 2% 1% 2% ;
+    border-top: 0.2px solid rgba(255, 255, 255, 0.722) ;
+
+}
+#nav3 a{
+    color: white;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.left{
+    width: 50%;
+   
+}
+.justify_sb{
+    display: flex;
+    justify-content: space-between;
+}
+
+.right{
+    width: 35%;
+   
+}
+
+
+.logo img{
+    height: 10vh;
+}
+.menu{
+  font-size: 1.3rem;
+    color: white;
+}
+.menu i{
+    font-size: 1.7rem;
+}
+
+
+
+
+.content_link img{
+    height: 15vh;
+}
+.content{
+    display: flex;
+}
+.input{
+    align-items: center;
+    width: 50%;
+    margin-left: 1%;
+}
+input[name = search]{
+    border: none;
+    width: 28vw;
+    height: 3vh;
+    font-size: 1rem;
+    padding:0.5%;
+    border-radius: 5px 0 0 5px;
+
+
+    
+}
+.search_icon{
+    background: #ffff;
+    border-radius:0 5px 5px 0;
+    padding:0.5%;
+    height: 2.8vh;
+    padding-bottom: 0.7%;
+    font-size: 1.2rem;
+    margin-left: -7%;
+
+    display: inline;
+}
+input[name = search]::placeholder {
+    color: black; 
+    opacity: 0.8; 
+}
+
+.cart{
+
+    color: #ffff;
+    align-items: center;
+    margin-right: 3%;
+    
+    width: 18%;
+    font-size: 1.6rem;
+}
+
+
+.banner{
+    width:47%;
+    padding: 2% 0% 0% 1.5%;
+    
+}
+.banner img{
+    width:95%;
+}
+.Top_picks{
+    border: 1px solid #dadada;
+    margin-top: 1%;
+    height: 27vh;
+    width:50%;
+    padding: 2% 0 0 1%;
+    font-weight: bold;
+    margin-top: 2%;
+
+}
+
+.top_contents{
+    height: 14vh;
+    margin: 1% 2% 0 1%;
+}
+.content_link{
+    width: 30%;
+}
